@@ -56,3 +56,7 @@ Now, we will add the capability to have both rectangle and squire. We will first
 test cases for this requirement. Test cases related to this requirement are indicated with a trailing `3`.
 Now, we will resolve the compile errors and run the test cases. The result will be the following:
 ![img.png](report.images/square_pass.png)
+ Now, we need to refactor the square. Since square is a type of rectangle with
+equal width and height, we can use the inheritance capability of Java and 
+extend the `Rectangle` class to create the `Square` class. You can see the result
+of this refactoring in the commit with message `Refactor 2, Square`.

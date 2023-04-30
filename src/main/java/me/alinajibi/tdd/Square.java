@@ -1,23 +1,23 @@
 package me.alinajibi.tdd;
 
-public class Square {
-    private int side;
+public class Square extends Rectangle {
 
     public Square(int side) throws InvalidDimensionException {
-        if (side <= 0) {
-            throw new InvalidDimensionException("Invalid dimension");
-        }
-        this.side = side;
-    }
-
-    public int computeArea() {
-        return side * side;
+        super(side, side);
     }
 
     public void setSide(int side) throws InvalidDimensionException {
-        if (side <= 0) {
-            throw new InvalidDimensionException("Invalid dimension");
-        }
-        this.side = side;
+        super.setWidth(side);
+        super.setHeight(side);
+    }
+
+    public void setHeight(int height) throws InvalidDimensionException {
+        super.setHeight(height);
+        super.setWidth(height);
+    }
+
+    public void setWidth(int width) throws InvalidDimensionException {
+        super.setWidth(width);
+        super.setHeight(width);
     }
 }
