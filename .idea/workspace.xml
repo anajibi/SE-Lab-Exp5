@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dac541d-f941-49dd-a65f-2a9d3e4d9c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/alinajibi/tdd/TestSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682861042331</updated>
       <workItem from="1682861044158" duration="1358000" />
-      <workItem from="1682862432526" duration="3541000" />
+      <workItem from="1682862432526" duration="6153000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1682864486329</created>
@@ -200,7 +200,35 @@
       <option name="project" value="LOCAL" />
       <updated>1682864517545</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add test cases for square">
+      <created>1682865987923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682865987923</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pass test for square">
+      <created>1682866089584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682866089584</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactor 2, Square">
+      <created>1682866257247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682866257247</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactor 2, Square">
+      <created>1682868220739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682868220739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +248,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Refactor 1, TestCases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor 1, TestCases" />
+    <MESSAGE value="add test cases for square" />
+    <MESSAGE value="pass test for square" />
+    <MESSAGE value="Refactor 2, Square" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor 2, Square" />
   </component>
 </project>
