@@ -47,7 +47,7 @@
       <recent name="C:\Users\njibi\Desktop\University\SE-Lab\TDD\report.images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestSquare">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,6 +78,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="me.alinajibi.tdd" />
       <option name="MAIN_CLASS_NAME" value="me.alinajibi.tdd.TestRectangle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.alinajibi.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.alinajibi.tdd" />
+      <option name="MAIN_CLASS_NAME" value="me.alinajibi.tdd.TestSquare" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,6 +170,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSquare" />
         <item itemvalue="JUnit.TestRectangle" />
       </list>
     </recent_temporary>

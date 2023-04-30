@@ -37,7 +37,7 @@ public class TestSquare {
     }
 
     @Test
-    public void testComputeArea_3() throws InvalidDimensionException {
+    public void testComputeAreaAfterChangingSide_3() throws InvalidDimensionException {
         Square square = new Square(1);
         assertEquals(1, square.computeArea());
 

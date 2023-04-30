@@ -54,3 +54,5 @@ in the commit with message `Refactor 1, TestCases`.
 ### Requirement 3:
 Now, we will add the capability to have both rectangle and squire. We will first write respective
 test cases for this requirement. Test cases related to this requirement are indicated with a trailing `3`.
+Now, we will resolve the compile errors and run the test cases. The result will be the following:
+![img.png](report.images/square_pass.png)
