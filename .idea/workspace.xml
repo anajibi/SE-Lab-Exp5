@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dac541d-f941-49dd-a65f-2a9d3e4d9c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.images/phase1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.images/phase4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/alinajibi/tdd/InvalidDimensionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/alinajibi/tdd/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/alinajibi/tdd/TestRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/alinajibi/tdd/TestSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,8 +168,23 @@
       <option name="presentableId" value="Default" />
       <updated>1682861042331</updated>
       <workItem from="1682861044158" duration="1358000" />
-      <workItem from="1682862432526" duration="1906000" />
+      <workItem from="1682862432526" duration="3541000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1682864486329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682864486330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor 1, TestCases">
+      <created>1682864517545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682864517545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,5 +200,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Refactor 1, TestCases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor 1, TestCases" />
   </component>
 </project>
