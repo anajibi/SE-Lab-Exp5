@@ -9,15 +9,15 @@ import static org.junit.Assert.fail;
 public class TestRectangle {
     @Test
     public void testConstructor_1() throws InvalidDimensionException {
-        Rectangle rectangle = new Rectangle(1, 2);
+        new Rectangle(1, 2);
         try {
-            rectangle = new Rectangle(-1, 2);
+             new Rectangle(-1, 2);
             fail("Expected InvalidDimensionException");
         } catch (InvalidDimensionException e) {
             assertEquals("Invalid dimension", e.getMessage());
         }
         try {
-            rectangle = new Rectangle(1, -2);
+             new Rectangle(1, -2);
             fail("Expected InvalidDimensionException");
         } catch (InvalidDimensionException e) {
             assertEquals("Invalid dimension", e.getMessage());
@@ -63,10 +63,10 @@ public class TestRectangle {
         assertEquals(123 * 123, rectangle.computeArea());
 
         rectangle.setWidth(1);
-        assertEquals(1 * 123, rectangle.computeArea());
+        assertEquals(123, rectangle.computeArea());
 
         rectangle.setHeight(1);
-        assertEquals(1 * 1, rectangle.computeArea());
+        assertEquals(1, rectangle.computeArea());
     }
 
 }
